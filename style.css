@@ -272,3 +272,14 @@ section {
 .footer-links a:hover {
     color: var(--white);
 }
+
+/* Styling for internal links */
+.link-to-page {
+    color: var(--accent-blue);
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.link-to-page:hover {
+    text-decoration: underline;
+}
